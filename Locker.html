@@ -800,9 +800,7 @@ Information locker</h1>
   reader.readAsText(file);
   document.querySelector("#import-file").value="";
  }
- catch(e){
- 	giveMsg("error","Cannot import file. Please make sure that the file is correct.");
+ catch(e){giveMsg("error","Cannot import file. Please make sure that the file is correct.");}
  }
-}
 }
 </script>
